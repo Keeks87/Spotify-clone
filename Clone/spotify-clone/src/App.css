@@ -1,0 +1,205 @@
+.container {
+  display: flex;
+}
+
+.container-sidebar {
+  flex: 1;
+  background-color: #000000;
+  padding: 5px;
+  color: white;
+  }
+
+.sidebar {
+  flex: 1;
+  border-radius: 15px;
+  padding: 20px;
+  color: white;
+  background: rgb(24, 24, 24);
+  }
+
+.nav-list {
+  list-style: none;
+  padding: 0;
+}
+
+.nav-list li {
+  margin-top: 1px;
+  margin-bottom: 1px;
+  padding: 0;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.App-logo {
+  width: 20px;
+  height: auto;
+  cursor: pointer;
+  margin-right: 15px;
+  border-radius: 15px;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.card-navbar {
+  flex: 1;
+  background-color: #282828;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.button {
+  background-color: #ffffff;
+  color: #000000;
+  border: none;
+  border-radius: 50px;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  width: auto;
+  height: auto;
+  font-size: 16px;
+}
+
+.button:hover {
+  background-color: #e3e3e3;
+  color: #000000;
+  transform: scale(1.05);
+  border: none;
+  border-radius: 50px;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  width: auto;
+  height: auto;
+  font-size: 16px;
+}
+
+.button-black {
+  background-color: #000000;
+  color: #e3e3e3;
+  border: none;
+  border-radius: 50px;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  width: auto;
+  height: auto;
+  font-size: 16px;
+}
+
+.button-black:hover {
+  background-color: #000000;
+  color: #ffffff;
+  transform: scale(1.05);
+  border: none;
+  border-radius: 50px;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  width: auto;
+  height: auto;
+  font-size: 16px;
+}
+
+/* Header buttons*/
+.content-header {
+  flex: 3;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  background: rgb(0,0,0);
+}
+/*use flex and specify spacing between containers to be max*/
+/*Move buttons to the right*/
+.header-buttons {
+  margin-left: auto;
+}
+
+/*Add space between buttons*/
+.header-buttons > * {
+  margin-left: 10px;
+}
+
+.cards-container {
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.content {
+  flex: 3;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  background: rgb(0,0,0);
+  background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgb(30, 30, 30) 100%);
+}
+
+.card {
+  flex: 1; /* Distribute available space evenly */
+  background-color: #f0f0f0;
+  height: 60%;
+  color: #f0f0f0;
+  border-radius: 15px;
+  padding: 20px;
+  cursor: pointer;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  background: rgb(0,0,0);
+  background: linear-gradient(0deg, rgb(0,0,0,1) 0%, rgba(30,30,30) 100%)
+}
+
+.card:hover {
+  background-color: #ffffff;
+  border-radius: 15px;
+  transition: 0.5s;
+  cursor: pointer;
+  background: rgb(0,0,0);
+  background: linear-gradient(0deg, rgb(48, 48, 48) 0%, rgb(30, 30, 30) 100%);
+}
+
+.App-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.heading {
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+  display: inline-block;
+}
+
+h6 {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0;
+  margin-bottom: 5px;
+}
+
+p {
+  font-size: 14px;
+  font-weight: 500;
+  margin: 0;
+  margin-bottom: 5px;
+  text-overflow: ellipsis;
+  color: #828282;
+}
